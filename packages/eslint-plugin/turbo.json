@@ -1,0 +1,19 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"extends": ["//"],
+	"pipeline": {
+		"check:lint": {
+			"dependsOn": ["build"],
+			"inputs": ["**/*.{js,ts,tsx}", ".eslint*", "tsconfig.json"],
+			"outputs": []
+		},
+		"check:unused": {
+			"dependsOn": ["build"],
+			"inputs": ["**/*.{ts,tsx}", "knip.json", "tsconfig.json"],
+			"outputs": []
+		},
+		"fix:lint": {
+			"cache": false
+		}
+	}
+}

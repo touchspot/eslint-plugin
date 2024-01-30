@@ -1,0 +1,12 @@
+{
+	"extends": ["@tsconfig/next/tsconfig.json", "@tsconfig/strictest/tsconfig.json"],
+	"compilerOptions": {
+		"verbatimModuleSyntax": true,
+		"baseUrl": ".",
+		"paths": {
+			"#pkg/*": ["src/*"],
+		},
+		"noEmit": true,
+	},
+	"include": ["src"],
+}

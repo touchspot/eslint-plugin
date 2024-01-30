@@ -1,0 +1,4 @@
+{
+	"root": true,
+	"extends": ["plugin:@touchspot/esm", "plugin:@touchspot/+next"]
+}

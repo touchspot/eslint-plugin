@@ -1,0 +1,21 @@
+[tools]
+node = "20.11.0"
+"npm:aicommits" = "1.11.0"
+
+[env]
+_.path = ["./node_modules/.bin"]
+
+[tasks.setup]
+run = ["mise install", "corepack enable", "pnpm install --frozen-lockfile", "pnpm run setup"]
+
+[tasks.build]
+run = "turbo run build --no-daemon"
+
+[tasks.check]
+run = "turbo run check:format check:lint check:type check:unused --no-daemon --continue"
+
+[tasks.fix]
+run = "turbo run fix:lint fix:format --no-daemon"
+
+[tasks.test]
+run = "turbo run test --no-daemon"
