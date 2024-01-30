@@ -1,0 +1,93 @@
+{
+	"name": "@touchspot/eslint-plugin",
+	"version": "0.0.0",
+	"description": "TOUCHSPOT ESLint plugin",
+	"keywords": [
+		"eslint",
+		"typescript"
+	],
+	"homepage": "https://github.com/touchspot/eslint-plugin/tree/main/packages/eslint-plugin",
+	"bugs": {
+		"url": "https://github.com/touchspot/eslint-plugin/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/touchspot/eslint-plugin.git",
+		"directory": "packages/eslint-plugin"
+	},
+	"license": "MIT",
+	"author": "mozisan <mozisan@users.noreply.github.com>",
+	"type": "module",
+	"exports": {
+		".": {
+			"require": "./dist/lib.cjs",
+			"import": "./dist/lib.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"main": "./dist/lib.cjs",
+	"module": "./dist/lib.js",
+	"files": [
+		"dist",
+		"package.json",
+		"README.md"
+	],
+	"scripts": {
+		"build": "pkgroll",
+		"check:format": "prettier --check .",
+		"check:lint": "eslint .",
+		"check:type": "tsc --noEmit",
+		"check:unused": "knip",
+		"fix:format": "prettier --write .",
+		"fix:lint": "eslint --fix ."
+	},
+	"dependencies": {
+		"@next/eslint-plugin-next": "^14.1.0",
+		"@typescript-eslint/eslint-plugin": "^6.20.0",
+		"@typescript-eslint/parser": "^6.20.0",
+		"@typescript-eslint/type-utils": "^6.20.0",
+		"@typescript-eslint/utils": "^6.20.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-import-resolver-typescript": "^3.6.1",
+		"eslint-plugin-check-file": "^2.6.2",
+		"eslint-plugin-functional": "^6.0.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-import-access": "^2.1.2",
+		"eslint-plugin-no-relative-import-paths": "^1.5.3",
+		"eslint-plugin-perfectionist": "^2.5.0",
+		"eslint-plugin-react": "^7.33.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-perf": "^3.3.2",
+		"eslint-plugin-tailwindcss": "^3.14.1",
+		"eslint-plugin-unicorn": "^50.0.1",
+		"eslint-plugin-unused-imports": "^3.0.0"
+	},
+	"devDependencies": {
+		"@tsconfig/node20": "^20.1.2",
+		"@tsconfig/strictest": "^2.0.2",
+		"eslint": "^8.56.0",
+		"next": "^14.1.0",
+		"react": "^18.2.0",
+		"tailwindcss": "^3.4.1"
+	},
+	"peerDependencies": {
+		"eslint": "^8.56.0",
+		"next": "^14.1.0",
+		"react": "^18.2.0",
+		"tailwindcss": "^3.4.1"
+	},
+	"peerDependenciesMeta": {
+		"next": {
+			"optional": true
+		},
+		"react": {
+			"optional": true
+		},
+		"tailwindcss": {
+			"optional": true
+		}
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

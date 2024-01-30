@@ -1,0 +1,23 @@
+{
+	"name": "test-esm-next",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"check:format": "prettier --check .",
+		"check:type": "tsc --noEmit",
+		"fix:format": "prettier --write .",
+		"test": "eslint ."
+	},
+	"dependencies": {
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@touchspot/eslint-plugin": "workspace:^",
+		"@tsconfig/next": "^2.0.1",
+		"@tsconfig/strictest": "^2.0.2",
+		"@types/react": "^18.2.48",
+		"@types/react-dom": "^18.2.18",
+		"next": "^14.1.0",
+		"react": "^18.2.0"
+	}
+}

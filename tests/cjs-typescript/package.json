@@ -1,0 +1,15 @@
+{
+	"name": "test-cjs-typescript",
+	"private": true,
+	"scripts": {
+		"check:format": "prettier --check .",
+		"check:type": "tsc --noEmit",
+		"fix:format": "prettier --write .",
+		"test": "eslint ."
+	},
+	"devDependencies": {
+		"@touchspot/eslint-plugin": "workspace:^",
+		"@tsconfig/node20": "^20.1.2",
+		"@tsconfig/strictest": "^2.0.2"
+	}
+}
