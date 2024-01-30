@@ -1,0 +1,17 @@
+name: Publish
+
+on:
+  workflow_call:
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-toolchain
+      - run: pnpm install --frozen-lockfile
+      - run: mise run build
+      - run: pnpm --recursive publish --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
