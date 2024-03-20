@@ -4,9 +4,9 @@
 		"verbatimModuleSyntax": true,
 		"baseUrl": ".",
 		"paths": {
-			"#pkg/*": ["src/*"],
+			"#pkg/*": ["src/*"]
 		},
-		"noEmit": true,
+		"noEmit": true
 	},
-	"include": ["src"],
+	"include": ["src"]
 }
