@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/touchspot/eslint-plugin/compare/v1.1.0...v1.2.0) (2024-05-07)
+
+
+### Features
+
+* **eslint-plugin:** enable `arrow-body-style` ([18ed3d1](https://github.com/touchspot/eslint-plugin/commit/18ed3d1c3091f5bd0f358d67e7a726a366eee107))
+
 ## [1.1.0](https://github.com/touchspot/eslint-plugin/compare/v1.0.0...v1.1.0) (2024-03-20)
 
 
