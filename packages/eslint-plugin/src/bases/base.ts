@@ -5,6 +5,7 @@ export default {
 	plugins: ["perfectionist", "unused-imports"],
 	rules: {
 		// eslint
+		"arrow-body-style": ["error"],
 		eqeqeq: ["error", "always", { null: "never" }],
 		"max-params": "error",
 		"no-console": ["warn", { allow: ["warn", "error"] }],
