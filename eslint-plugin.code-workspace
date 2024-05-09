@@ -14,7 +14,7 @@
 		"cSpell.allowCompoundWords": true,
 		"cSpell.enabled": true,
 		"cSpell.ignoreWords": ["dbaeumer", "esbenp", "tseslint"],
-		"cSpell.words": ["knip", "mozisan", "tibdex", "touchspot"],
+		"cSpell.words": ["knip", "mozisan", "touchspot"],
 		"editor.codeActionsOnSave": {
 			"source.fixAll.eslint": "explicit",
 		},
