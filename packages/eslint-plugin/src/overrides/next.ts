@@ -11,7 +11,7 @@ export default {
 				"check-file/folder-naming-convention": ["error", { "**": "NEXT_JS_APP_ROUTER_CASE" }],
 				"check-file/filename-naming-convention": "off",
 				// eslint-plugin-import
-				"import/no-default-export": "off",
+				"import-x/no-default-export": "off",
 				// eslint-plugin-unicorn
 				"unicorn/filename-case": "off",
 			},

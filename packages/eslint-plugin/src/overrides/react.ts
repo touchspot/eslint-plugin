@@ -11,7 +11,7 @@ export default {
 			files: ["*.tsx"],
 			excludedFiles: ["*.d.?(c|m)ts"],
 			extends: [
-				"plugin:import/react",
+				"plugin:import-x/react",
 				"plugin:react/recommended",
 				"plugin:react/jsx-runtime",
 				"plugin:react-perf/recommended",

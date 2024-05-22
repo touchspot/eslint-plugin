@@ -3,7 +3,7 @@ import type { TSESLint } from "@typescript-eslint/utils";
 export default {
 	rules: {
 		// eslint-plugin-import
-		"import/no-useless-path-segments": ["error", { noUselessIndex: true }],
+		"import-x/no-useless-path-segments": ["error", { noUselessIndex: true }],
 	},
 	overrides: [
 		{

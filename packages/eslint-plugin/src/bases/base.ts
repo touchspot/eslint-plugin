@@ -1,7 +1,7 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
 export default {
-	extends: ["eslint:recommended", "plugin:import/recommended", "plugin:unicorn/recommended", "prettier"],
+	extends: ["eslint:recommended", "plugin:import-x/recommended", "plugin:unicorn/recommended", "prettier"],
 	plugins: ["perfectionist", "unused-imports"],
 	rules: {
 		// eslint
@@ -21,14 +21,14 @@ export default {
 		"object-shorthand": "error",
 		"prefer-destructuring": "error",
 		// eslint-plugin-import
-		"import/export": "off",
-		"import/first": "error",
-		"import/namespace": "off",
-		"import/newline-after-import": "error",
-		"import/no-anonymous-default-export": ["error", { allowArray: true, allowObject: true }],
-		"import/no-duplicates": "error",
-		"import/no-unresolved": "off",
-		"import/no-useless-path-segments": "error",
+		"import-x/export": "off",
+		"import-x/first": "error",
+		"import-x/namespace": "off",
+		"import-x/newline-after-import": "error",
+		"import-x/no-anonymous-default-export": ["error", { allowArray: true, allowObject: true }],
+		"import-x/no-duplicates": "error",
+		"import-x/no-unresolved": "off",
+		"import-x/no-useless-path-segments": "error",
 		// eslint-plugin-perfectionist
 		"perfectionist/sort-exports": ["error", { type: "natural" }],
 		"perfectionist/sort-imports": [
@@ -62,7 +62,7 @@ export default {
 			extends: [
 				"plugin:@typescript-eslint/strict-type-checked",
 				"plugin:@typescript-eslint/stylistic-type-checked",
-				"plugin:import/typescript",
+				"plugin:import-x/typescript",
 				"prettier",
 			],
 			parserOptions: {
@@ -72,7 +72,7 @@ export default {
 			},
 			plugins: ["check-file", "functional", "no-relative-import-paths"],
 			settings: {
-				"import/internal-regex": "^(#[^/]+|~)/",
+				"import-x/internal-regex": "^(#[^/]+|~)/",
 			},
 			rules: {
 				// @typescript-eslint/eslint-plugin
@@ -141,8 +141,8 @@ export default {
 				"functional/prefer-property-signatures": "error",
 				"functional/prefer-readonly-type": "error",
 				// eslint-plugin-import
-				"import/consistent-type-specifier-style": "error",
-				"import/no-default-export": "error",
+				"import-x/consistent-type-specifier-style": "error",
+				"import-x/no-default-export": "error",
 				// eslint-plugin-no-relative-import-paths
 				"no-relative-import-paths/no-relative-import-paths": ["error", { allowSameFolder: true }],
 			},
@@ -151,7 +151,7 @@ export default {
 			files: ["*.config.?(c|m)ts?(x)", "vitest.*.?(c|m)ts?(x)"],
 			rules: {
 				// eslint-plugin-import
-				"import/no-default-export": "off",
+				"import-x/no-default-export": "off",
 			},
 		},
 	],
