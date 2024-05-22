@@ -12,7 +12,6 @@ module.exports = {
 			files: ["*.ts"],
 			rules: {
 				"import/no-default-export": "off",
-				"unicorn/prefer-module": "off",
 			},
 		},
 	],
