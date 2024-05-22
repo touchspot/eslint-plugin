@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/touchspot/eslint-plugin/compare/v1.2.0...v1.3.0) (2024-05-22)
+
+
+### Features
+
+* **eslint-plugin:** enforce `import/consistent-type-specifier-style` ([37a82ed](https://github.com/touchspot/eslint-plugin/commit/37a82edd93988b431be26cc8f644097b8133b8c3))
+* **eslint-plugin:** introduce `eslint-plugin-security` ([a4a4d88](https://github.com/touchspot/eslint-plugin/commit/a4a4d88ebfc4db1fc436183fe454cb07236b2e7c))
+* **eslint-plugin:** remove `eslint-plugin-import-access` usage ([85ddeef](https://github.com/touchspot/eslint-plugin/commit/85ddeef87df0b6591f55626b8439cb2dfe14f1b5))
+* **eslint-plugin:** replace `eslint-plugin-import` with `eslint-plugin-import-x` ([728e0f6](https://github.com/touchspot/eslint-plugin/commit/728e0f66b97dce50631f116f739560bd2b5cf36b))
+* **eslint-plugin:** update rules for `functional/immutable-data` ([83788a3](https://github.com/touchspot/eslint-plugin/commit/83788a35e77ad5b214cd81acb36290357ae2acd4))
+* **eslint-plugin:** upgrade dependencies ([8d984ac](https://github.com/touchspot/eslint-plugin/commit/8d984acb7abc400f40a1a5d887b87a3fff348ae4))
+
 ## [1.2.0](https://github.com/touchspot/eslint-plugin/compare/v1.1.0...v1.2.0) (2024-05-07)
 
 
