@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/touchspot/eslint-plugin/compare/v1.3.0...v1.4.0) (2024-05-22)
+
+
+### Features
+
+* **eslint-plugin:** remove `eslint-plugin-security` usage ([fb3e60b](https://github.com/touchspot/eslint-plugin/commit/fb3e60b5c2b736a22f487a11f9223d6428ece244))
+
 ## [1.3.0](https://github.com/touchspot/eslint-plugin/compare/v1.2.0...v1.3.0) (2024-05-22)
 
 
