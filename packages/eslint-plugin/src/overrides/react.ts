@@ -11,7 +11,7 @@ export default {
 			files: ["*.tsx"],
 			excludedFiles: ["*.d.?(c|m)ts"],
 			extends: [
-				"plugin:import/react",
+				"plugin:import-x/react",
 				"plugin:react/recommended",
 				"plugin:react/jsx-runtime",
 				"plugin:react-perf/recommended",
@@ -36,7 +36,14 @@ export default {
 			plugins: ["react-hooks"],
 			rules: {
 				// eslint-plugin-functional
-				"functional/immutable-data": ["error", { ignoreAccessorPattern: ["ref.current", "*Ref.current", "router.**"] }],
+				"functional/immutable-data": [
+					"error",
+					{
+						ignoreImmediateMutation: true,
+						ignoreNonConstDeclarations: { treatParametersAsConst: true },
+						ignoreAccessorPattern: ["ref.current", "*Ref.current", "router.**"],
+					},
+				],
 				// eslint-plugin-react-hooks
 				"react-hooks/rules-of-hooks": "error",
 				"react-hooks/exhaustive-deps": "error",

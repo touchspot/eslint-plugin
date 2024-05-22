@@ -1,4 +1,5 @@
-import { type FC, useRef } from "react";
+import type { FC } from "react";
+import { useRef } from "react";
 
 export const Check: FC = () => {
 	const textRef = useRef("foo");

@@ -14,7 +14,7 @@ export default {
 			},
 			rules: {
 				// eslint-plugin-import
-				"import/no-import-module-exports": "error",
+				"import-x/no-import-module-exports": "error",
 				// eslint-plugin-unicorn
 				"unicorn/prefer-module": "off",
 			},

@@ -8,16 +8,14 @@
 		"fix:format": "prettier --write .",
 		"test": "eslint ."
 	},
-	"dependencies": {
-		"react-dom": "^18.2.0"
-	},
 	"devDependencies": {
 		"@touchspot/eslint-plugin": "workspace:^",
-		"@tsconfig/next": "^2.0.1",
-		"@tsconfig/strictest": "^2.0.3",
-		"@types/react": "^18.2.67",
-		"@types/react-dom": "^18.2.22",
-		"next": "^14.1.4",
-		"react": "^18.2.0"
+		"@tsconfig/next": "^2.0.3",
+		"@tsconfig/strictest": "^2.0.5",
+		"@types/react": "^18.3.2",
+		"@types/react-dom": "^18.3.0",
+		"next": "^14.2.3",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
 	}
 }

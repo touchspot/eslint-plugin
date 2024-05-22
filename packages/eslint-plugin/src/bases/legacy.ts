@@ -3,7 +3,7 @@ import type { TSESLint } from "@typescript-eslint/utils";
 export default {
 	rules: {
 		// eslint-plugin-import
-		"import/no-useless-path-segments": ["error", { noUselessIndex: true }],
+		"import-x/no-useless-path-segments": ["error", { noUselessIndex: true }],
 	},
 	overrides: [
 		{
@@ -13,8 +13,6 @@ export default {
 				// eslint-plugin-check-file
 				"check-file/filename-naming-convention": ["error", { "**": "+([_$0-9a-z])?(.+([0-9a-z]))" }],
 				"check-file/folder-naming-convention": ["error", { "**": "SNAKE_CASE" }],
-				// eslint-plugin-import-access
-				"import-access/jsdoc": "error",
 				// eslint-plugin-unicorn
 				"unicorn/filename-case": "off",
 			},

@@ -1,7 +1,7 @@
 import "./env";
 
 import * as i1 from "node:assert";
-import * as i2 from "node:path";
+import i2 from "node:path";
 
 import * as i3 from "@dummy/package";
 import * as i4 from "dummy-package";
