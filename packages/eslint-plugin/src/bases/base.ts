@@ -135,6 +135,7 @@ export default {
 				"functional/prefer-property-signatures": "error",
 				"functional/prefer-readonly-type": "error",
 				// eslint-plugin-import
+				"import/consistent-type-specifier-style": "error",
 				"import/no-default-export": "error",
 				// eslint-plugin-no-relative-import-paths
 				"no-relative-import-paths/no-relative-import-paths": ["error", { allowSameFolder: true }],
