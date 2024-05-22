@@ -1,13 +1,7 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
 export default {
-	extends: [
-		"eslint:recommended",
-		"plugin:security/recommended-legacy",
-		"plugin:import-x/recommended",
-		"plugin:unicorn/recommended",
-		"prettier",
-	],
+	extends: ["eslint:recommended", "plugin:import-x/recommended", "plugin:unicorn/recommended", "prettier"],
 	plugins: ["perfectionist", "unused-imports"],
 	rules: {
 		// eslint
