@@ -70,7 +70,7 @@ export default {
 				project: true,
 				warnOnUnsupportedTypeScriptVersion: true,
 			},
-			plugins: ["check-file", "functional", "import-access", "no-relative-import-paths"],
+			plugins: ["check-file", "functional", "no-relative-import-paths"],
 			settings: {
 				"import/internal-regex": "^(#[^/]+|~)/",
 			},

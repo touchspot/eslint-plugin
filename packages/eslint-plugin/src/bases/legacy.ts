@@ -13,8 +13,6 @@ export default {
 				// eslint-plugin-check-file
 				"check-file/filename-naming-convention": ["error", { "**": "+([_$0-9a-z])?(.+([0-9a-z]))" }],
 				"check-file/folder-naming-convention": ["error", { "**": "SNAKE_CASE" }],
-				// eslint-plugin-import-access
-				"import-access/jsdoc": "error",
 				// eslint-plugin-unicorn
 				"unicorn/filename-case": "off",
 			},
