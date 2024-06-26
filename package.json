@@ -9,17 +9,17 @@
 		"@commitlint/config-pnpm-scopes": "^19.1.0",
 		"@commitlint/cz-commitlint": "^19.2.0",
 		"@touchspot/prettier-config": "^1.0.0",
-		"@types/node": "^20.12.12",
+		"@types/node": "^20.14.9",
 		"better-typescript-lib": "^2.7.0",
 		"commitizen": "^4.3.0",
 		"eslint": "^8.57.0",
 		"husky": "^9.0.11",
-		"knip": "^5.16.0",
-		"lint-staged": "^15.2.4",
+		"knip": "^5.23.0",
+		"lint-staged": "^15.2.7",
 		"pkgroll": "^2.1.1",
-		"prettier": "^3.2.5",
-		"turbo": "^1.13.3",
-		"typescript": "^5.4.5"
+		"prettier": "^3.3.2",
+		"turbo": "^1.13.4",
+		"typescript": "^5.5.2"
 	},
 	"packageManager": "pnpm@9.4.0"
 }
