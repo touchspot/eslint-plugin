@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.2](https://github.com/touchspot/eslint-plugin/compare/v1.4.1...v1.4.2) (2024-06-26)
+
+
+### Bug Fixes
+
+* **eslint-plugin:** remove `eslint-import-resolver-typescript` from dependencies ([f6b4331](https://github.com/touchspot/eslint-plugin/commit/f6b4331f51ca0f5d3151daf986dfc29fec0538e3))
+* **eslint-plugin:** remove unnecessary peer dependencies ([9f506ea](https://github.com/touchspot/eslint-plugin/commit/9f506ea6656f271ed2f93582ed83db8c1b9b99b4))
+
 ## [1.4.1](https://github.com/touchspot/eslint-plugin/compare/v1.4.0...v1.4.1) (2024-06-26)
 
 
