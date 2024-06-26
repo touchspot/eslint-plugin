@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/touchspot/eslint-plugin/compare/v1.4.0...v1.4.1) (2024-06-26)
+
+
+### Bug Fixes
+
+* **eslint-plugin:** resolve peer dependency issues in Node.js project usage ([5beb677](https://github.com/touchspot/eslint-plugin/commit/5beb67774da2b3d66609042439a1412ed5afc14e))
+
 ## [1.4.0](https://github.com/touchspot/eslint-plugin/compare/v1.3.0...v1.4.0) (2024-05-22)
 
 
